@@ -1,0 +1,50 @@
+ <ion-header>
+   <ion-toolbar color="primary" style="text-align: center;">
+     <ion-title>SignIn</ion-title>
+     <ion-buttons slot="start">
+       <ion-back-button defaultHref="/login"></ion-back-button>
+     </ion-buttons>
+   </ion-toolbar>
+ </ion-header>
+
+ <ion-content>
+   <ion-card>
+     <ion-card-header>
+       <ion-card-title style="text-align: center"><strong>Inscription</strong> </ion-card-title>
+     </ion-card-header>
+     <ion-card-content>
+       <form (submit)="register(registerForm.value)" [formGroup]="registerForm">
+         <ion-list>
+           <ion-item>
+             <ion-icon name="person-outline"></ion-icon>
+             <ion-input formControlName="username" type="text" required placeholder="username"></ion-input>
+           </ion-item>
+           <ion-item>
+             <ion-icon name="person-circle-outline"></ion-icon>
+             <ion-input formControlName="prenom" type="text" required placeholder="prenom"></ion-input>
+           </ion-item>
+
+           <ion-item>
+             <ion-icon name="mail-outline"></ion-icon>
+             <ion-input formControlName="email" type="email" required placeholder="email"></ion-input>
+           </ion-item>
+           <ion-item>
+             <ion-icon name="location-outline"></ion-icon>
+             <ion-input formControlName="adresse" type="text" required placeholder="adresse"></ion-input>
+           </ion-item>
+           <ion-item>
+             <ion-icon name="call-outline"></ion-icon>
+             <ion-input formControlName="telephone" type="text" required placeholder="telephone"></ion-input>
+           </ion-item>
+           <ion-item>
+             <ion-icon name="key-outline"></ion-icon>
+             <ion-input [type]="typePassword ? 'text': 'password' " formControlName="secret" required placeholder=" password"></ion-input>
+             <ion-icon [name]="iconPassword" (click)="voirPassword()"></ion-icon>
+           </ion-item><br>
+           <p style="text-align: right;">J'ai un compte ?<a routerLink='/login'>Login </a> </p>
+           <ion-button fill="solid" size="default" color="primary" style="margin-left: 90px;" type="submit">Valider</ion-button>
+         </ion-list>
+       </form>
+     </ion-card-content>
+   </ion-card>
+ </ion-content>

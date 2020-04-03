@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "commandes",
+  "info": {
+    "name": "commande"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "plat": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "biginteger"
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "prix": {
+      "type": "float"
+    }
+  }
+}
