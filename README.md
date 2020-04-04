@@ -98,8 +98,8 @@
       NB: avant de lancer le fichier apk sur votre mobile assurer que l'api est deja lancer
           desactiver l'antivurus ou parfeux qui peuvent bloquer pas l'acces a strapi
           
-    3.lancer l'application sur android
-![image | 100x100,1%](/img/2.jpg )  
+    3.lancer l'application sur android et utiliser le compte administrateur creer precedament pour tester
+      toute les fonctionnalités
       
   ## b. Utiliser un navigateur web
      Dans cette partie on a juste nous allons utiliser un navigateur pour lancer l'application
@@ -137,6 +137,8 @@
         sinon Build l'appli 
         
  # E. Tests
+> **Utiliser un compte admin et inscrivez vous tester la difference et les differentes privileges et fonctionnalites**
+
     a. Deux profils vont exister, administrateur et employé.
       un admin peut rentrer dans tout l'appli contrairement a l'employe qui peut juste faire des commandes
       et voir son profil ou la modifier.
