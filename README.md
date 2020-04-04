@@ -1,13 +1,6 @@
  # ionic-capacitor-strapi 
  Bonjour,
 
-    Dans le dossiers on a un fichier et 2 dossiers:
-    a. un fichier
-        1. app-debug:     le build de l'application finale
-  
-    b. Les 2 dossiers:
-        1. resto :        dossiers ionic
-        2. resto_strapi : dossiers strapi
     
 # PLAN
 
@@ -32,4 +25,36 @@
     e. Permettre à l’utilisateur de modifier sa photo en utilisant la caméra du téléphone.
     f. Ajouter la fonctionnalité de réinitialisation de mot de passe.
 
+# Prerequis
+    
+    1. telecharger le dossiers en zip
+    2. extraire le fichiers 
+        Dans le dossiers on a un fichier et 2 dossiers:
+        a. un fichier
+            1. app-debug:     le build de l'application finale
+  
+        b. Les 2 dossiers:
+            1. resto :        dossiers ionic
+            2. resto_strapi : dossiers strapi
+
+    1. Pour commencer avec Ionic Framework, la seule exigence est un environnement Node & npm [Node.js](https://nodejs.org/en/).
+        Pour vérifier l'installation, ouvrez une nouvelle fenêtre de terminal et exécutez:
+        * node --version
+        * npm --version
+
+    2. Installez l'Ionic CLI avec npm:
+        se placer dans le dossiers resto puis tapez les 2 commandes:
+        * npm uninstall -g ionic
+        * npm install -g @ionic/cli
+
+    3. Rendez vous dans le dossiers resto sur un terminal et tapez:
+        * ionic serve
+
+         si vous avez des erreurs de modules(packages) manquants veuillez les installer comme suis:
+         les packages necessaires sont : 
+         ![image](/img/ng.png)
+
+        *npm install nom_package
+            exemple: 
+            * npm install @angular-devkit/build-angular
 
