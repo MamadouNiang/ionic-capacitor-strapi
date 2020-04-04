@@ -83,8 +83,14 @@
       
       nous aurrons juste a creer le role administrateur car employe nous allons considerer comme etant authenticated
       et autoriser toute les permissions a l'admintrateur dans permission.
- > ![image](/img/ad.PNG)      
+ > ![image](/img/ad.PNG)    
  
+**     aller dans utilisateurs et creer un user et ajouter lui le role administrateur pour tester
+     toute les fonctionnalité
+     de l'application car lors de l'inscription le user est pris comme employe c'est a dire authenticated 
+     et ses fonctionnalités sont limites aux commandes et a son profil et non la gestion des commandes ou
+     des plats.  **
+     
     2.le fichier app-debug.apk est builder avec l'adresse ip : 192.168.1.2
       donc pour l'utilisation directe du fichier .apk veillez fixer l'adresse ip de votre machine ou tourne
       votre strapi a l'adresse ip suivant : 192.168.1.2
