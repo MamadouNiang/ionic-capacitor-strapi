@@ -86,7 +86,7 @@ export class ComptePage implements OnInit {
     this.prenom = user.prenom;
     this.adresse = user.adresse;
     this.telephone = user.telephone;
-    this.image = SERVER_URL_BE + user.image[0].url;
+    this.image = '';
 
   }
 
