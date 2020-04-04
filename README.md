@@ -1,4 +1,5 @@
- # ionic-capacitor-strapi 
+### Mamadou idrissa NIANG, Master 2 systemes et reseaux telecoms
+# ionic-capacitor-strapi 
  Bonjour,
 
     
@@ -112,11 +113,13 @@
      1.prerequis : android studio 
    [android_studio.exe](https://redirector.gvt1.com/edgedl/android/studio/install/3.6.2.0/android-studio-ide-192.6308749-windows.exe)
      
-     2. se rendre dans le dossiers resto et tapez les commandes
+     2. se rendre dans le dossiers resto et tapez les commandes (s'assurer d'avoir une version suoerieur a 10.11)
      * ionic integrations enable capacitor
      * ionic build
      * ionic capacitor add android
      * npx cap copy
+     
+     dans le cas au il y'a des packages manquants installer les avec : npm install @nom_package
      
      apres une MAJ de notre code on a juste a retaper
      *ionic build
@@ -128,8 +131,31 @@
         sinon Build l'appli 
         
  # E. Tests
- 
- 
+    a. Deux profils vont exister, administrateur et employé.
+      un admin peut rentrer dans tout l'appli contrairement a l'employe qui peut juste faire des commandes
+      et voir son profil ou la modifier.
+      um message d'erreur d'autorisation est envoyé si un employe essaye d'acceder aux des taches non
+      autoriser
+      
+    b. Permettre à l’administrateur de définir le menu du jour en précisant   les plats du jour.
+       l'admin peut peut definir des plats du jours modifier et supprimer.
+       
+    c. Permettre aux employés de passer leur commande et à l’administrateur de voir les commandes du jour.é
+       seuls les admins peuvent voir les commandes sinon un message d'autorisation est envoyé.
+       les admins peuvent directement appeler l'employer qui a fait la commande.
+       
+    d. Permettre à un utilisateur connecté (administrateur ou employé) de modifier les informations 
+    de son profil. 
+        Pour cela, nous ajouterons les champs suivants au compte utilisateur :
+         nom, prénom, adresse, numéro téléphone et une photo de profil.
+    e. Permettre à l’utilisateur de modifier sa photo en utilisant la caméra du téléphone.
+    
+    f. Ajouter la fonctionnalité de réinitialisation de mot de passe.
+       la fonctionnalité de reinitialisation de mot de passe se fait grace aux mails et aux numero de telephone
+       d'abord la personne s'authentifie avec son mail et son numero de telephone,sinon un message d'erreur est envoyé
+       ensuite on demande un new password les 2 doivent etre coherante et non vide pour valider le password.
+       
+       
       
       
       
