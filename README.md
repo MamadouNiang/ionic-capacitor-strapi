@@ -85,7 +85,7 @@
       et autoriser toute les permissions a l'admintrateur dans permission.
  > ![image](/img/ad.PNG)    
  
-**aller dans utilisateurs et creer un user et ajouter lui le role administrateur pour tester
+> **aller dans utilisateurs et creer un user et ajouter lui le role administrateur pour tester
      toute les fonctionnalité
      de l'application car lors de l'inscription le user est pris comme employe c'est a dire authenticated 
      et ses fonctionnalités sont limites aux commandes et a son profil et non la gestion des commandes ou
@@ -105,19 +105,19 @@
      Dans cette partie on a juste nous allons utiliser un navigateur pour lancer l'application
      aller dans le dossiers resto -> src -> environement -> environement.ts
      changer 192.168.1.2 par votre adresse ip sur le quel tourne votre serveur api(strapi) et sauvegarder
-![image](/img/adr.PNG ) 
+> ![image](/img/adr.PNG ) 
 
      1. lancer ionic serve dans le dossiers resto
      2. lancer yarn develop dans le dossiers resto_strapi
-![image](/img/t1.PNG ) 
-![image](/img/t2.PNG ) 
-![image](/img/t3.PNG ) 
-![image](/img/t4.PNG )
-![image](/img/t5.PNG )
+> ![image](/img/t1.PNG ) 
+> ![image](/img/t2.PNG ) 
+> ![image](/img/t3.PNG ) 
+> ![image](/img/t4.PNG )
+> ![image](/img/t5.PNG )
  
  # D. Déploiement
      1.prerequis : android studio 
-   [android_studio.exe](https://redirector.gvt1.com/edgedl/android/studio/install/3.6.2.0/android-studio-ide-192.6308749-windows.exe)
+  > [android_studio.exe](https://redirector.gvt1.com/edgedl/android/studio/install/3.6.2.0/android-studio-ide-192.6308749-windows.exe)
      
      2. se rendre dans le dossiers resto et tapez les commandes (s'assurer d'avoir une version suoerieur a 10.11)
      * ionic integrations enable capacitor
@@ -163,7 +163,7 @@
        d'abord la personne s'authentifie avec son mail et son numero de telephone,sinon un message d'erreur est envoyé
        ensuite on demande un new password les 2 doivent etre coherante et non vide pour valider le password.
        
-       
-      
+       des videos descriptives de l'ensemble des taches 
+  >  > [videos_descriptive](https://nodejs.org/en/).
       
       
