@@ -37,7 +37,8 @@
             1. resto :        dossiers ionic
             2. resto_strapi : dossiers strapi
 
-    1. Pour commencer avec Ionic Framework, la seule exigence est un environnement Node & npm ![Node.js](https://nodejs.org/en/).
+    1. Pour commencer avec Ionic Framework, la seule exigence est un environnement Node & npm 
+![Node.js](https://nodejs.org/en/).
         Pour vérifier l'installation, ouvrez une nouvelle fenêtre de terminal et exécutez:
         * node --version
         * npm --version
@@ -52,7 +53,7 @@
 
          si vous avez des erreurs de modules(packages) manquants veuillez les installer comme suis:
          les packages necessaires sont : 
-         ![image](img/ngV.png)
+![image](img/ngV.png)
 
         *npm install nom_package
             exemple: 
