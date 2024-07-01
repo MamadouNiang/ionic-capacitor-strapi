@@ -1,4 +1,4 @@
-### Mamadou idrissa NIANG, Master 2 systemes et reseaux telecoms
+### Mamadou idrissa NIANG, 
 > > >   > ![image](/img/fin.PNG)
 # ionic-capacitor-strapi 
  Bonjour,
